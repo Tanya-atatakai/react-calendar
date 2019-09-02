@@ -1,0 +1,40 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-right: -4px;
+  margin-left: -4px;
+  >.button {
+    margin: 0 4px;
+  }
+  &__selected-date {
+    color: #344563;
+    margin: 0 8px;
+    font-size: 20px;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+}
+
+.calendar {
+  margin: 25px 0;
+  width: 100%;
+  border-collapse: collapse;
+  .day-name {
+    background: #F2F2F2;
+    text-align: center;
+    border: 1px solid rgba(166, 168, 179, 0.12);
+    text-transform: uppercase;
+    color: #99A1A7;
+    line-height: 50px;
+    font-weight: 500;
+  }
+  .day {
+    width: 200px;
+    height: 100px;
+    color: #6B7074;
+    padding: 20px 10px;
+    border: 1px solid rgba(166, 168, 179, 0.12);
+    text-align: right;
+    vertical-align: top;
+  }
+}

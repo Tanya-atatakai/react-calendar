@@ -1,0 +1,8 @@
+.button-group {
+  display: flex;
+  margin-right: -4px;
+  margin-left: -4px;
+  >.button {
+    margin: 0 4px;
+  }
+}
