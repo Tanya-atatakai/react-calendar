@@ -1,8 +1,8 @@
 import React from 'react';
-import Calendar from './pages/Calendar';
+import Schedule from './pages/Schedule';
 
 export default function App() {
   return (
-    <Calendar/>
+    <Schedule/>
   );
 }

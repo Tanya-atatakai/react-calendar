@@ -12,13 +12,13 @@
   }
 
   &--primary {
-    background-color: #008CBA;
+    background-color: #009FD4;
     border-radius: 4px;
     color: #FFF;
     padding: 10px 24px;
 
     &:hover {
-      background-color: #009FD4;
+      background-color: #008CBA;
     }
 
     &:active {
@@ -37,8 +37,8 @@
     }
 
     &:active {
-      background-color: #E5F0FC;
-      color: #0052CC;
+      background-color: #E5F5FA;
+      color: #009FD4;
     }
   }
 }

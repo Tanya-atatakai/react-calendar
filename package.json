@@ -2,11 +2,6 @@
   "name": "react-calendar",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@babel/preset-react": "^7.0.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
-  },
   "scripts": {
     "start:dev": "webpack-dev-server --port 3000 --mode development --hot",
     "start:prod": "webpack --mode production"
@@ -30,6 +25,7 @@
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
     "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
     "css-loader": "^2.1.1",
     "eslint": "^5.16.0",
@@ -47,5 +43,10 @@
     "webpack": "^4.32.0",
     "webpack-cli": "^3.3.2",
     "webpack-dev-server": "^3.4.1"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router": "^5.0.1"
   }
 }
