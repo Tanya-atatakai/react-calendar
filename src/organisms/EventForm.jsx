@@ -14,7 +14,7 @@ export default (props: Props) => (
       Контент формы
     </div>
     <ButtonGroup>
-      <Button text="Отмена" onClick={props.onClose}/>
+      <Button text="Отмена" appearance="primary" onClick={props.onClose}/>
       <Button text="Сохранить"/>
     </ButtonGroup>
   </form>

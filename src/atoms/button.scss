@@ -11,6 +11,21 @@
     outline: none;
   }
 
+  &--default {
+    background-color: rgba(9, 30, 66, 0.04);
+    border-radius: 4px;
+    color: #344563;
+    padding: 10px 24px;
+
+    &:hover {
+      background-color: #F4F5F7;
+    }
+
+    &:active {
+      background-color: #DBDCDE;
+    }
+  }
+
   &--primary {
     background-color: #009FD4;
     border-radius: 4px;

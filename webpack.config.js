@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const FlowBabelWebpackPlugin = require('flow-babel-webpack-plugin');
 const path = require('path');
 
 module.exports = {
@@ -35,6 +36,7 @@ module.exports = {
       }],
   },
   plugins: [
+    new FlowBabelWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: './public/index.html',
     }),

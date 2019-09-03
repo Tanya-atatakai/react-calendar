@@ -1,8 +1,8 @@
 // @flow
-import React from 'react';
+import React, { type Node } from 'react';
 
 type Props = {
-  children: React.ReactNode;
+  children: Node;
 };
 
 export default (props: Props) => (
